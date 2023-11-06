@@ -1,51 +1,50 @@
 body {
-    background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+  background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
 
 .fugaz {
-    font-family: 'Fugaz One', sans-serif;
-
+  font-family: "Fugaz One", sans-serif;
 }
 
 .red {
-    color: #5F002B;
+  color: #5f002b;
 }
 
-.montauk{
-    font-family: 'Montauk', Courier, monospace;
+.montauk {
+  font-family: "Montauk", Courier, monospace;
 }
 
-.spread{
-    display: flex;
-    
-    justify-content: space-evenly
-    
-}
+.spread {
+  display: flex;
 
-@font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf");
-    font-weight: normal;
-    font-style: normal;
+  justify-content: space-evenly;
 }
 
 @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
-    font-weight: bold;
-    font-style: normal;
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf"),
+    url("../assets/Montauk-Regular/Montauk.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
-    font-weight: normal;
-    font-style: italic;
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
-    font-weight: lighter;
-    font-style: normal;
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
+  font-weight: lighter;
+  font-style: normal;
 }
