@@ -24,7 +24,8 @@ body {
 
 @font-face {
     font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf");
+    src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf"),
+     url("../assets/Montauk-Regular/Montauk-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
