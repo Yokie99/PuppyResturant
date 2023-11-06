@@ -1,0 +1,114 @@
+body{
+ background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+
+.centerTXT{
+      font-family: 'Montauk', Courier, monospace;
+    text-align: center;
+    border: 1px;
+    background-color: white;
+   
+}
+.caterHero{
+    height: 1640px;
+    width: 50px;
+}
+
+
+.montauk{
+    font-family: 'Montauk', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
+    font-weight: lighter;
+    font-style: normal;
+  }
+
