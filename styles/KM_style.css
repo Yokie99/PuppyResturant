@@ -20,10 +20,18 @@ body {
     justify-content: space-between
 }
 
-.footerImg{
-    width: 100px;
-    height: 32px;
-    object-fit: contain;
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    padding: 44px 7.3%; 
+}
+
+.footer .text{
+    color: #5F002B;
+    font-family: 'Montauk', Courier, monospace;
+    font-size: 20px;
+    line-height: 1.1;
 }
 
 .menuTxt{
@@ -31,12 +39,17 @@ body {
     color: #5F002B;
     background-color: white;
     font-family: 'Fugaz One';
+    font-size: 50px;
 }
 
 .overflow{
     overflow: hidden;
 }
 
+.marginX{
+    margin-right: 8em;
+    margin-left: 8em;
+}
 .bgwhite{
     background-color: white;
 }
@@ -49,18 +62,36 @@ body {
     width: auto;
     height: 20px;
 }
+
+hr{
+    border: 1px solid #980051;
+    opacity: 100%;
+    
+}
 .menu-item{
     display: flex;
     justify-content: space-between;
     margin: 0;
     font-family: 'Montauk';
     color: #5F002B;
+    font-size: 30px;
 }
 .menu-description{
     font-family: 'Montauk';
     color: #5F002B;
+    font-size: 18px;
 }
 
+.paddingBot{
+    padding-bottom: 6em!important;
+}
+
+.menuCata{
+    font-size: 30px;
+}
+.cataDes{
+    font-size: 18px;
+}
 @font-face {
     font-family: Montauk;
     src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf"),
