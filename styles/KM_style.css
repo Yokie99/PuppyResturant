@@ -36,11 +36,29 @@ body {
 .overflow{
     overflow: hidden;
 }
+
 .bgwhite{
     background-color: white;
 }
-.bgblue{
-    background-color: lightblue;
+
+.spacerVert{
+    width: 10px;
+    height: auto;
+}
+.spacerHor{
+    width: auto;
+    height: 20px;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'Montauk';
+    color: #5F002B;
+}
+.menu-description{
+    font-family: 'Montauk';
+    color: #5F002B;
 }
 
 @font-face {
