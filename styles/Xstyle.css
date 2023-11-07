@@ -5,18 +5,33 @@ body{
 .centerTXT{
       font-family: 'Montauk', Courier, monospace;
     text-align: center;
-    border: 1px;
     background-color: white;
+    
    
 }
-.caterHero{
-    height: 1640px;
-    width: 50px;
+.cateringHero{
+    /* height: 1640px;
+    width: 50px; */
+    height: 500px;
+    width: 1664px;
 }
 
 
 .montauk{
+    color: #5F002B;
     font-family: 'Montauk', Courier, monospace;
+}
+.sizeTXT{
+  font-size: 20px;
+}
+
+.marginSimpson{
+    margin-left: 8em;
+    margin-right: 8em;
+}
+.fugaz{
+  color: #5F002B;
+  font-family: 'Fugaz', Courier, monospace;
 }
 
 
