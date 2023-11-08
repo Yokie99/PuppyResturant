@@ -1,114 +1,139 @@
 body {
-    background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
-  }
-  
-  .fugaz {
-    font-family: "Fugaz One", sans-serif;
-  }
-  
-  .red {
-    color: #5f002b;
-  }
-  
-  .montauk {
-    font-family: "Montauk", Courier, monospace;
-  }
-  
-  .spread {
-    display: flex;
-  
-    justify-content: space-evenly;
-  }
-  
-  @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf"),
-      url("../assets/Montauk-Regular/Montauk.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
-    font-weight: normal;
-    font-style: italic;
-  }
-  
-  @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
-    font-weight: lighter;
-    font-style: normal;
-  }
-  
-  
-  .fugaz {
-      font-family: 'Fugaz One', sans-serif;
-  
-  }
-  
-  .red {
-      color: #5F002B;
-  }
-  
-  .montauk{
-      font-family: 'Montauk', Courier, monospace;
-  }
-  
-  .spread{
-      display: flex;
-      
-      justify-content: space-evenly
-      
-  }
+  background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
 
-  p{
-    font-family: 'Montauk', Courier, monospace;
-    color: #5F002B;
-  }
+.fugaz {
+  font-family: "Fugaz One", sans-serif;
+}
 
-  h1, h2, h3, h4, h5, h6{
-    font-family: 'Fugaz One', sans-serif;
-    color: #5F002B;
-  }
+.red {
+  color: #5f002b;
+}
 
-  h1{
-    padding-top: 20px;
-  }
-  
-  @font-face {
-      font-family: Montauk;
-      src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf"),
-       url("../assets/Montauk-Regular/Montauk-Regular.woff") format("woff");
-      font-weight: normal;
-      font-style: normal;
-  }
-  
-  @font-face {
-      font-family: Montauk;
-      src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
-      font-weight: bold;
-      font-style: normal;
-  }
-  
-  @font-face {
-      font-family: Montauk;
-      src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
-      font-weight: normal;
-      font-style: italic;
-  }
-  
-  @font-face {
-      font-family: Montauk;
-      src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
-      font-weight: lighter;
-      font-style: normal;
-  }
+.montauk {
+  font-family: "Montauk", Courier, monospace;
+}
+
+.spread {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.marginX{
+  margin-right: 8em;
+  margin-left: 8em;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr;
+  padding: 44px 7.3%; 
+}
+
+.footer .text{
+  color: #5F002B;
+  font-family: 'Montauk', Courier, monospace;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf"),
+    url("../assets/Montauk-Regular/Montauk.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.fugaz {
+  font-family: "Fugaz One", sans-serif;
+}
+
+.red {
+  color: #5f002b;
+}
+
+.montauk {
+  font-family: "Montauk", Courier, monospace;
+}
+
+.spread {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+p {
+  font-family: "Montauk", Courier, monospace;
+  color: #5f002b;
+  padding: 0px 40px 0px 40px;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fugaz One", sans-serif;
+  color: #5f002b;
+  padding: 0px 40px 0px 40px;
+}
+
+h1 {
+  padding-top: 40px;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf"),
+    url("../assets/Montauk-Regular/Montauk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
+  font-weight: lighter;
+  font-style: normal;
+}
