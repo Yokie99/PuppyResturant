@@ -50,10 +50,13 @@ body{
 } */
 
 .bord{
-  border: 3px;
-  border-color: white;
+  border: 10px solid whitesmoke;
 }
 
+.photo{
+  width: 20px;
+  height: auto;
+}
 
 
 
