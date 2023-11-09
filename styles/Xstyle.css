@@ -27,7 +27,7 @@ body{
      font-family: 'Montauk', Courier, monospace;
  }
  .sizeTXT{
-   font-size: 20px;
+   font-size: 16px;
  }
  
  .marginSimpson{
@@ -41,7 +41,8 @@ body{
 
  .maineIMG{
     height: 365.5px;
-    width: 674px;
+    width: 651px;
+    /* width: 674px; */
  }
 
 /* .background{
@@ -51,12 +52,35 @@ body{
 
 .bord{
   border: 10px solid whitesmoke;
+  margin: 10px;
+  
 }
 
-.photo{
+/* .photo{
   width: 20px;
   height: auto;
+} */
+
+.caterBox{
+  width: 983px;
+  height: 366px;
 }
+
+.foods{
+  width: 553.8px;
+  height: 357.5px;
+}
+/* 
+.photoBox{
+  min-width: 1640px;
+  
+} */
+
+.photoSizes{
+  width: 350px;
+  height: auto;
+}
+
 
 
 
