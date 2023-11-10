@@ -21,13 +21,12 @@ body{
      width: 1640px;
  }
  
- 
  .montauk{
      color: #5F002B;
      font-family: 'Montauk', Courier, monospace;
  }
  .sizeTXT{
-   font-size: 20px;
+   font-size: 16px;
  }
  
  .marginSimpson{
@@ -41,7 +40,8 @@ body{
 
  .maineIMG{
     height: 365.5px;
-    width: 674px;
+    width: 651px;
+    /* width: 674px; */
  }
 
 /* .background{
@@ -50,16 +50,59 @@ body{
 } */
 
 .bord{
-  border: 3px;
-  border-color: white;
+  border: 10px solid whitesmoke;
+  margin: 10px;
+  
+}
+
+/* .photo{
+  width: 20px;
+  height: auto;
+} */
+
+.caterBox{
+  width: 983px;
+  height: 366px;
+}
+
+.tabletFoods{
+  width: 250px;
+  height: auto;
+}
+.foods{
+  width: 553.8px;
+  height: 357.5px;
+}
+
+.photoBox{
+  width: 1640px;
+  
+}
+
+.photoSizes{
+  width: 350px;
+  height: auto;
 }
 
 
+.smallCater{
+  width: 280px;
+  height: auto;
+}
+
+.mobilePictures{
 
 
+  width: 100px;
+  height: auto;
 
+}
 
-
+.smallBorder{
+  border: 5px solid whitesmoke;
+  margin: 5px;
+  
+}
 
 
 
@@ -90,4 +133,3 @@ body{
     font-weight: lighter;
     font-style: normal;
   }
-

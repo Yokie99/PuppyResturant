@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/Xstyle.css">
   <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/KM_style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Source+Sans+3&display=swap" rel="stylesheet">
@@ -15,38 +16,37 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-    <!-- start NavBar -->
 
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid mx-5 mt-3">
-        <a class="navbar-brand" href="#">
-          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+    <div class="container-fluid">
+
+
+ <!--NavBar Start-->
+ <nav class="navbar navbar-expand-lg d-flex justify-content-center">
+  <div class="container-fluid marginX mt-3">
+      <a class="navbar-brand" href="../index.HTML">
+          <img class="" src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="Muzzles Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav fugaz">
-            <a class="nav-link red" href="../pages/about.html">About</a>
-            <a class="nav-link red" href="../pages/menu.html">Menu</a>
-            <a class="nav-link red" href="../pages/Catering.html">Catering</a>
-            <a class="nav-link red" href="../pages/Photos.html">Photos</a>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav fugaz ">
+              <a class="nav-link red" href="./about.html">About</a>
+              <a class="nav-link red" aria-current="page" href="./menu.html">Menu</a>
+              <a class="nav-link red" href="./Catering.html">Catering</a>
+              <a class="nav-link red" href="./Photos.html">Photo</a>
           </div>
-        </div>
       </div>
-
-
-
-    </nav>
-    <!-- end Navbar -->
-
+  </div>
+</nav>
+<!--NavBar end-->
 
     <br>
     <br>
     <br>
 
+    <div class="d-none d-lg-block">
     <!-- start header -->
     <div class="container-flex marginSimpson">
 
@@ -69,127 +69,248 @@
     <br>
     <br>
 
-
     <!-- start Catering Services-->
-    <div class="container">
+  
       <div class="row">
-        <div class="col-5 d-flex justify-content-center">
+        <div class="col-lg-5 d-flex justify-content-end">
 
          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/cateringMaine.jpg" alt="cateringMaine" class="img-fluid maineIMG">
 
         </div>
 
+        <div style="background-color: whitesmoke;" class="col-lg-7 caterBox">
+          <h3 class="fugaz mt-5 mx-4">Our Catering Services</h1>
 
 
-
-        <div style="background-color: whitesmoke;" class="col-7">
-          <h1 class="fugaz">Our Catering Services</h1>
-
-
-         <p class="sizeTXT montauk">Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet. Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis. Consectetur lorem donec massa sapien faucibus et molestie ac. Cum sociis natoque penatibus et magnis dis parturient. Ut faucibus pulvinar elementum integer enim. Vel risus commodo viverra maecenas accumsan. Nec dui nunc mattis enim ut.</p>   
+         <p class="sizeTXT montauk mx-4">Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet. Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis. Consectetur lorem donec massa sapien faucibus et molestie ac. Cum sociis natoque penatibus et magnis dis parturient. Ut faucibus pulvinar elementum integer enim. Vel risus commodo viverra maecenas accumsan. Nec dui nunc mattis enim ut.</p>   
         
-        <p class="sizeTXT montauk"> Posuere lorem ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean. Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum sagittis vitae et leo duis ut. Egestas quis ipsum suspendisse ultrices gravida. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et. Dolor sit amet consectetur adipiscing elit ut aliquam. Erat nam at lectus urna duis convallis convallis tellus. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices.</p>     
+        <p class="sizeTXT montauk mx-4"> Posuere lorem ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean. Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum sagittis vitae et leo duis ut. Egestas quis ipsum suspendisse ultrices gravida. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et. Dolor sit amet consectetur adipiscing elit ut aliquam. Erat nam at lectus urna duis convallis convallis tellus. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices.
+
+          
+        </p>     
         </div>        
-        
-        
+          
+      </div>
       
-        
-      </div>
-      </div>
-
-
       <!-- end Catering Services -->
 
     <br>
     <br>
     <br>
+    <br>
 
+    <!--start catering pics  -->
 
     <div class="container-fluid">
       <div class="row">
         <div class="col d-flex justify-content-center">
 
-          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering1.jpg" alt="catering1" class="img-fluid px-2">
+          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering1.jpg" alt="catering1" class="img-fluid px-2 foods">
 
-          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering2.jpg" alt="catering2" class="img-fluid px-2">
+          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering2.jpg" alt="catering2" class="img-fluid px-2 foods">
 
-          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering3.jpg" alt="catering3" class="img-fluid px-2">
+          <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering3.jpg" alt="catering3" class="img-fluid px-2 foods">
 
         </div>
      
       </div>
     </div>
-
-
-      <!-- <div class="container-fluid ps-5">
-        <div class="row">
-          <div class="col-4 d-flex justify-content-end">
-
-            <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering1.jpg" alt="catering1" class="img-fluid">
+    
+    <!-- end catering pics -->
+     <!-- END DESKTOP MODE -->
+  </div>
+   <!-- END DESKTOP MODE -->
 
 
 
-          </div>
-          <div class="col-4 d-flex justify-content-center">
+   
+    <!-- START Tablet Mode -->
+
+  <div class="d-none d-md-block d-lg-none"> 
+
+  <!-- start header -->
+  <div class="container-  ">
+
+    <h1 class="centerHeadr fugaz py-2">Catering</h1>
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container-fluid d-flex justify-content-center">
+    
+    <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/cateringHero.jpg" alt="cateringHero" class="smallCater" class="img-fluid">
+
+</div>
+<!-- end header -->
+
+<br>
+<br>
+<br>
+
+<!-- start Catering Services-->
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-4 ">
+
+     <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/cateringMaine.jpg" alt="cateringMaine" class="img-fluid tabletFoods">
+
+    </div>
+
+    <div style="background-color: whitesmoke;" class="col-md-8">
+      <h3 class="fugaz mt-5 mx-4">Our Catering Services</h1>
+
+     <p class="sizeTXT montauk" style="font-size: 10px;">Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet. Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis. Consectetur lorem donec massa sapien faucibus et molestie ac. </p>   
+    
+    <p class="sizeTXT montauk " style="font-size: 10px;"> Posuere lorem ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean. Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum sagittis vitae et leo duis ut. Egestas quis ipsum suspendisse ultrices gravida. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et. 
+      
+    </p>     
+    </div>        
+    
+  </div>
+  
+  <!-- end Catering Services -->
+
+<br>
+<br>
+<br>
+<br>
+
+<!--start catering pics  -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col d-flex justify-content-center">
+
+      <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering1.jpg" alt="catering1" class="img-fluid px-2 tabletFoods">
+
+      <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering2.jpg" alt="catering2" class="img-fluid px-2 tabletFoods">
+
+      <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering3.jpg" alt="catering3" class="img-fluid px-2 tabletFoods">
+
+    </div>
+ 
+  </div>
+</div>
+
+   <!-- END TABLET MODE -->
+  </div>
+  <!-- END TABLET MODE -->
 
 
-            <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering2.jpg" alt="catering2" class="img-fluid">
-
-          </div>
-          <div class="col-4 ">
-
-            <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering3.jpg" alt="catering3" class="img-fluid">
 
 
-          </div>
-        </div>
-      </div> -->
+  <!-- START mobile mode -->
+
+  <div class=" d-sm-block d-md-none">
+    
+  
+
+  <!-- start header -->
+  <div class="container  ">
+
+    <h1 class="centerHeadr fugaz py-2">Catering</h1>
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container-fluid d-flex justify-content-center">
+    
+    <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/cateringHero.jpg" alt="cateringHero" class="smallCater" class="img-fluid">
+
+</div>
+<!-- end header -->
+
+<br>
+<br>
+<br>
+
+<!-- start Catering Services-->
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-sm-2 " style="background-color: white;">
+
+      <h3 class="fugaz mt-5 mx-4">Our Catering Services</h1>
+
+      <p class="montauk " style="font-size: 7px;">Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet. Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis. Consectetur lorem donec massa sapien faucibus et molestie ac. </p>   
+    
+      <p class="montauk " style="font-size: 7px;"> Posuere lorem ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean. Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum sagittis vitae et leo duis ut. Egestas quis ipsum suspendisse ultrices gravida. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et. 
+      </p>     
+
+    
+
+    </div>
+
+    <div class="col-sm-10">
+  <br>
+
+        <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/cateringMaine.jpg" alt="cateringMaine" class="img-fluid bilePictures">
+      
+
+    </div>        
+    
+  </div>
+  
+  <!-- end Catering Services -->
+
+<br>
+<br>
+<br>
+<br>
+
+<!--start catering pics  -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col d-flex justify-content-center">
+
+      <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering1.jpg" alt="catering1" class="img-fluid px-2 mobilePictures">
+
+      <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering2.jpg" alt="catering2" class="img-fluid px-2 mobilePictures">
+
+      <img src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/catering3.jpg" alt="catering3" class="img-fluid px-2 mobilePictures">
+
+    </div>
+ 
+  </div>
+</div>
+
+  <!-- END MOBILE MODE -->
+  </div>
+  <!-- END MOBILE MODE -->
+
+
+
+
+
+
+
+    <br>
+
+
+  <!--Footer Start-->
+  <div class="footer">
+    <div class="text" style="grid-row: 1; grid-column: 1;">1357 Mutt Street, Rottweiler CA. 12345</div>
+    <div class="text" style="grid-row: 2; grid-column: 1;">Phone: 123-456-7890</div>
+    <div class="text d-flex justify-content-end" style="grid-row: 1; grid-column: 2;"><img
+            src="../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/CompanyLogo.png" alt="company trademark" width="100px">
+    </div>
+    <div class="text text-end" style="grid-row: 2; grid-column: 2;">Copyright © Muzzles Restaurant</div>
+</div>
+  <!--Footer end-->
+
+
+
+
 
       <!-- end PageContainerDiv -->
       </div>
        <!-- end PageContainerDiv -->
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
