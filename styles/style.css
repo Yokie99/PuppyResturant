@@ -94,6 +94,14 @@ body {
     line-height: 1.2em;
   }
   
+  .title,
+  .subtitle {
+    font-family: "Fugaz One", sans-serif;
+    color: #5f002b;
+    padding: 0px 40px 0px 40px;
+  }
+  
+  
   .title {
     padding-top: 40px;
   }
@@ -200,3 +208,135 @@ hr{
 
 
 /* Start of Xavier CSS */
+  
+  .centerTXT {
+    font-family: 'Montauk', Courier, monospace;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .centerHeadr {
+    text-align: center;
+    background-color: white;
+    font-family: 'Fugaz', Courier, monospace;
+  }
+  
+  .cateringHero {
+    height: 500px;
+    width: 1640px;
+  }
+  
+  .montauk {
+    color: #5F002B;
+    font-family: 'Montauk', Courier, monospace;
+  }
+  
+  .sizeTXT {
+    font-size: 16px;
+  }
+  
+  .marginSimpson {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+  
+  .fugaz {
+    color: #5F002B;
+    font-family: 'Fugaz One', Courier, monospace;
+  }
+  
+  .maineIMG {
+    height: 365.5px;
+    width: 651px;
+  
+  }
+  
+  
+
+  .bord {
+    border: 10px solid whitesmoke;
+    margin: 10px;
+  
+  }
+
+  .bordTab{
+    border: 5px solid whitesmoke;
+    margin: 0px;
+  
+  }
+  
+  
+  .caterBox {
+    width: 983px;
+    height: 366px;
+  }
+  
+  .tabletFoods {
+    width: 250px;
+    height: auto;
+  }
+  
+  .foods {
+    width: 553.8px;
+    height: 357.5px;
+  }
+  
+  .photoBox {
+    width: 1640px;
+  
+  }
+  
+  .photoSizes {
+    width: 350px;
+    height: auto;
+  }
+  
+  
+  .smallCater {
+    width: 280px;
+    height: auto;
+  }
+  
+  .mobilePictures {
+  
+  
+    width: 100px;
+    height: auto;
+  
+  }
+  
+  .smallBorder {
+    border: 5px solid whitesmoke;
+    margin: 5px;
+  
+  }
+  
+  
+  
+  @font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Montauk;
+    src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
+    font-weight: lighter;
+    font-style: normal;
+  }

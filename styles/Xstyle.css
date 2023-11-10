@@ -1,96 +1,90 @@
-body{
+body {
   background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
- }
- 
- .centerTXT{
-       font-family: 'Montauk', Courier, monospace;
-       text-align: center;
-       background-color: white;
- }
-
-  .centerHeadr{
-   text-align: center;
-   background-color: white;
-   font-family: 'Fugaz', Courier, monospace;
-  }
-
- .cateringHero{
-     /* height: 1640px;
-     width: 50px; */
-     height: 500px;
-     width: 1640px;
- }
- 
- .montauk{
-     color: #5F002B;
-     font-family: 'Montauk', Courier, monospace;
- }
- .sizeTXT{
-   font-size: 16px;
- }
- 
- .marginSimpson{
-     margin-left: 8em;
-     margin-right: 8em;
- }
- .fugaz{
-   color: #5F002B;
-   font-family: 'Fugaz One', Courier, monospace;
- }
-
- .maineIMG{
-    height: 365.5px;
-    width: 651px;
-    /* width: 674px; */
- }
-
-/* .background{
-  background-repeat: no-repeat;
-  background-size: auto;
-} */
-
-.bord{
-  border: 10px solid whitesmoke;
-  margin: 10px;
-  
 }
 
-/* .photo{
-  width: 20px;
-  height: auto;
-} */
+.centerTXT {
+  font-family: 'Montauk', Courier, monospace;
+  text-align: center;
+  background-color: white;
+}
 
-.caterBox{
+.centerHeadr {
+  text-align: center;
+  background-color: white;
+  font-family: 'Fugaz', Courier, monospace;
+}
+
+.cateringHero {
+  height: 500px;
+  width: 1640px;
+}
+
+.montauk {
+  color: #5F002B;
+  font-family: 'Montauk', Courier, monospace;
+}
+
+.sizeTXT {
+  font-size: 16px;
+}
+
+.marginSimpson {
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.fugaz {
+  color: #5F002B;
+  font-family: 'Fugaz One', Courier, monospace;
+}
+
+.maineIMG {
+  height: 365.5px;
+  width: 651px;
+
+}
+
+
+
+.bord {
+  border: 10px solid whitesmoke;
+  margin: 10px;
+
+}
+
+
+.caterBox {
   width: 983px;
   height: 366px;
 }
 
-.tabletFoods{
+.tabletFoods {
   width: 250px;
   height: auto;
 }
-.foods{
+
+.foods {
   width: 553.8px;
   height: 357.5px;
 }
 
-.photoBox{
+.photoBox {
   width: 1640px;
-  
+
 }
 
-.photoSizes{
+.photoSizes {
   width: 350px;
   height: auto;
 }
 
 
-.smallCater{
+.smallCater {
   width: 280px;
   height: auto;
 }
 
-.mobilePictures{
+.mobilePictures {
 
 
   width: 100px;
@@ -98,38 +92,38 @@ body{
 
 }
 
-.smallBorder{
+.smallBorder {
   border: 5px solid whitesmoke;
   margin: 5px;
-  
+
 }
 
 
 
 @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf");
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
-    font-weight: bold;
-    font-style: normal;
-  }
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
-    font-weight: normal;
-    font-style: italic;
-  }
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Italic.otf") format("otf");
+  font-weight: normal;
+  font-style: italic;
+}
 
-  @font-face {
-    font-family: Montauk;
-    src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
-    font-weight: lighter;
-    font-style: normal;
-  }
+@font-face {
+  font-family: Montauk;
+  src: url("../assets/Montauk-Regular/Montauk-Light.otf") format("otf");
+  font-weight: lighter;
+  font-style: normal;
+}
