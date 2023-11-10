@@ -66,6 +66,10 @@ body{
   height: 366px;
 }
 
+.tabletFoods{
+  width: 250px;
+  height: auto;
+}
 .foods{
   width: 553.8px;
   height: 357.5px;
@@ -80,6 +84,27 @@ body{
   width: 350px;
   height: auto;
 }
+
+
+.smallCater{
+  width: 280px;
+  height: auto;
+}
+
+.mobilePictures{
+
+
+  width: 100px;
+  height: auto;
+
+}
+
+.smallBorder{
+  border: 5px solid whitesmoke;
+  margin: 5px;
+  
+}
+
 
 
 
