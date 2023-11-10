@@ -23,3 +23,15 @@ Inconsistent on most pages.
 -Photo-
 
 Needs a more work. 
+
+Peer Review By: Joseph Poncini
+Peer Review Comments: 
+    -Desktop:
+        -Everything looks good. 
+    -Tablet:
+        -Menu Page: I noticed a missing margin spacing between the dessert menu and grill menu.
+        -Catering Page:Looks like you are having trouble with resizing images here
+    -Mobile:
+        -Home Page: The header image could probably look better if it was zoomed out (not critical)
+        -Menu Page: The Menu Accordian was an awesome idea and I like it a lot!!
+        -Catering Page: Obviously has similiar responsiveness issues as in tablet 
