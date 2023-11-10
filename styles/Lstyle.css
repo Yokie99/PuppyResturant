@@ -85,7 +85,7 @@ body {
   font-style: normal;
 }
 
-p {
+.small-word {
   font-family: "Montauk", Courier, monospace;
   color: #5f002b;
   padding: 0px 40px 0px 40px;
@@ -93,23 +93,28 @@ p {
   line-height: 1.2em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.title,
+.subtitle {
   font-family: "Fugaz One", sans-serif;
   color: #5f002b;
   padding: 0px 40px 0px 40px;
 }
 
-h1 {
+
+.title {
   padding-top: 40px;
 }
 
 .card{
   --bs-card-border-radius: 0px
+}
+
+.card-text {
+  font-family: "Montauk", Courier, monospace;
+  color: #5f002b;
+  padding: 0px 40px 0px 40px;
+  font-size: 20px;
+  line-height: 1.2em;
 }
 
 .card-img-top{
