@@ -1,3 +1,4 @@
+/* Start of Leo CSS */
 body {
     background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
   }
@@ -117,6 +118,7 @@ body {
     border-top-right-radius: 0px
   }
 
+/*Start of Kyle's CSS*/
   .menuTxt{
     text-align: center;
     color: #5F002B;
@@ -198,3 +200,6 @@ hr{
     --bs-accordion-border-color: #5F002B;
     --bs-accordion-btn-focus-box-shadow: none;
 }
+
+
+/* Start of Xavier CSS */
