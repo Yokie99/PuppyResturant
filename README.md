@@ -1,4 +1,11 @@
 # PuppyResturant
+// Leo, Xavier, Kyle
+
+// 11/9/2023
+
+// Puppy Restaurant
+
+// Description: Based off a prototype file, we constructed the front-end elements of a restaurant ran by puppies for puppies
 
 11/6/2023:
 Navbar & footer, menu page: Kyle
